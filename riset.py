@@ -38,7 +38,8 @@ with st.sidebar:
     # URL API sudah diisi sebelumnya sesuai dengan yang Anda berikan
     langflow_api_url = st.text_input(
         "URL API Langflow",
-        value="https://api.langflow.astra.datastax.com/lf/115811d4-1b67-443e-b29a-5db8ec947ec6/api/v1/run/4cbbaf67-2845-483b-ad9a-d17deb3ecdea"
+      # value="https://api.langflow.astra.datastax.com/lf/115811d4-1b67-443e-b29a-5db8ec947ec6/api/v1/run/4cbbaf67-2845-483b-ad9a-d17deb3ecdea"
+         value="https://astra.datastax.com/langflow/8d91a842-f8b2-4e32-b2fd-496bd693f348/flow/3c6a84a8-f428-43b8-bbf3-3dbf9249050b/folder/6c538d65-ee01-4dfb-852d-4021f0bb106d"
     )
     # Input untuk 'Bearer Token'
     application_token = st.text_input("Token Aplikasi Langflow (Bearer Token)", type="password", placeholder="Masukkan token Anda")
